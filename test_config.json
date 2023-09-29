@@ -1,0 +1,4 @@
+{
+    "numWorkers": 20,
+    "numOperationsPerWorker": 100
+}
