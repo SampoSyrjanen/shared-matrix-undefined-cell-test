@@ -113,7 +113,7 @@ export async function matrixTestWorker(config: MatrixTestWorkerConfig) {
         const colCount = matrix.colCount;
         matrix.insertCols(colCount, 1);
         matrix.setCell(0, colCount, i);
-        sleep(1);
+        await sleep(1);
     }
 
     await matrixTestSequenceEndPromise;
